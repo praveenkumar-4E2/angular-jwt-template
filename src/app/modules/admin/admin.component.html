@@ -1,0 +1,6 @@
+<p>admin works!</p>
+
+<!-- <button class="log" *ngIf="" routerLink="/auth/login" >logout</button> --> 
+<button *ngIf="disableLogoutButton" (click)="logoutButton() ">Logout</button>
+<button *ngIf="!disableLogoutButton" routerLink="/auth/login"  >Login</button>
+<h1>{{result}}</h1>

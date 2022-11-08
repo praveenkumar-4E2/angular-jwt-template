@@ -1,0 +1,37 @@
+
+nav{
+    background:#84a800;
+    
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    color:white;
+    font-size:1.5rem;
+    text-transform: uppercase;
+    margin:0 1rem;
+    font-weight:bold;
+    
+}
+nav ul{
+    float:right;
+    margin-right:.5rem;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: .75rem;
+    padding:.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+  
+}
+a.active,a:hover{
+    background:#668200;
+}

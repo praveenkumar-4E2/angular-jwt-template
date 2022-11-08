@@ -1,0 +1,15 @@
+<p>login works!</p>
+
+
+<div class="container">
+
+    <div class="card">
+        <form #login = "ngForm" (ngSubmit)="submit(login)">
+            <label>username</label>
+            <input type="text" name="userName"  ngModel>
+            <input type="password" name="password"  ngModel>
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+    
+</div>
